@@ -1,0 +1,80 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-05-24T01:16:18.557Z",
+    "end": "2018-05-24T01:16:18.601Z",
+    "duration": 44,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "ee4427b3-2d99-4c60-b174-e14f313482de",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "4e2d5b91-d68f-41c2-8c9d-626dd8a0a0b4",
+        "title": "Caso de prueba patito",
+        "fullFile": "/home/bugmaker/Documentos/QA/Proyecto/TransporTEC.Web/test/blackBox.js",
+        "file": "/blackBox.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Prueba 1",
+            "fullTitle": "Caso de prueba patito Prueba 1",
+            "timedOut": false,
+            "duration": 4,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "context": "[\n  \"Identificador : \",\n  \"Función a probar :\",\n  \"Objetivo : \",\n  \"Descripción : \",\n  \"Precondiciones : \",\n  {\n    \"title\": \"Criterios de aceptación\",\n    \"value\": {\n      \"criterio1\": 1,\n      \"criterio2\": 2\n    }\n  }\n]",
+            "code": "addContext(this, 'Identificador : ');\naddContext(this, 'Función a probar :');\naddContext(this, 'Objetivo : ');\naddContext(this, 'Descripción : ');\naddContext(this, 'Precondiciones : ');\naddContext(this, {\n    title: 'Criterios de aceptación',\n    value: {criterio1: 1, criterio2: 2}\n});\nexpect(1).toBe(1);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "4a55cfa5-7965-4712-8132-2037a7dba713",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "4a55cfa5-7965-4712-8132-2037a7dba713"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 4,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
